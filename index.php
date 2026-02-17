@@ -10,14 +10,15 @@ session_start();
 </head>
 <body>
     <div class='loginform'>
-        <input type="text" name='name' placeholder='Pleas enter your name' class='inputfield'>
-        <input type="password" name='password' class='inputfield' placeholder='Pleas enter your password'>
-        <button name='submit' class='loginbtn'> Login </button>
+        <input type="text" name='name' placeholder='Pleas enter your name' class='inputfield'><br>
+        <input type="password" name='password' class='inputfield' placeholder='Pleas enter your password'><br>
+        <button name='submit' class='loginbtn'> Login </button><br>
         <a href='registratioin.php'><p>Create an account</p></a>
         
     </div>
 </body>
 
 </html>
+
 
 
