@@ -41,9 +41,9 @@ if(isset($_POST['submit'])){
     <lable>Registration Form</lable>
     <form method='post' action='registration.php'>
         <div class='loginform'>
-            <input type="text" name='name' placeholder='Please enter your name'>
-            <input type="email" name='email' placeholder='Please enter your email'>
-            <input type="password" name='password' placeholder='Please enter your password'>
+            <input type="text" name='name' placeholder='Please enter your name' required>
+            <input type="email" name='email' placeholder='Please enter your email' required>
+            <input type="password" name='password' placeholder='Please enter your password' required>
             <button name='submit' class='loginbtn'> Register </button><br>
             <p>Already have an Account</p>
             <a href='index.php'><p>Login</p></a>
