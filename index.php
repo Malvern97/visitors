@@ -59,8 +59,8 @@ elseif(isset($_POST['submit'])){
     <!--The User Login Form-->
     <form method='post' action='index.php'>
         <div class='loginform'>
-            <input type="text" name='name' placeholder='Please enter your name'>
-            <input type="password" name='password' placeholder='Please enter your password'>
+            <input type="text" name='name' placeholder='Please enter your name' required>
+            <input type="password" name='password' placeholder='Please enter your password' required>
             <button name='submit' class='loginbtn'> Login </button><br>
             <a href='registratioin.php'><p>Create an account</p></a>
         </div>
