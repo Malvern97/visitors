@@ -7,12 +7,18 @@ $email= "$_POST['email']";
 $phone= "$_POST['phone']";
 $id= "$_POST['id']";
 $password= "$_POST['password']";
+$maxdigits= 10
 
 /*Admin Login Database Query*/
 $sql= " SELECT* FROM admin ";
 $query= mysqli_query( $conn, $sql);
 
-
+/*Basic Validation*/
+if(isset($_POST('submit'))){
+    if ($phone > $maxdigits){
+        echo" The phone number format must be integersconsist of 10 digits";
+    }
+}
 
 
 /*Admin Login Handler*/
