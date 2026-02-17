@@ -1,5 +1,17 @@
 .loginform {
  text-align: center;
  align-items: center;
- 
+
+}
+.inputfield{
+ width: 40%;
+ text-align:left;
+ gap:5px;
+}
+.loginbtn{
+ background-color: green;
+ color: white;
+ border-radius: 10px;
+ padding: 5px;
+ text-align: center;
 }
