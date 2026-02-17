@@ -52,7 +52,7 @@ elseif(isset($_POST['submit'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form</title>
     <link rel='stylesheet' href='index.css' >
 </head>
 <body>
@@ -66,4 +66,5 @@ elseif(isset($_POST['submit'])){
         </div>
     </form>
 </body>
+
 </html>
